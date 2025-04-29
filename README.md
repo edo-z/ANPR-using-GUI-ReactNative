@@ -109,6 +109,3 @@ python app.py
 
 Silakan fork dan pull request jika ingin menambahkan fitur atau memperbaiki bug.
 
----
-
-Kalau kamu ingin saya bantu sekalian bikin file `README.md`-nya langsung dari isi ini, tinggal bilang aja! Mau dilanjut dari sini ke tahap deploy atau integrasi tambahan juga bisa.

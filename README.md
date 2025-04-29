@@ -1,9 +1,4 @@
 # ANPR-using-GUI-ReactNative
-ANPR app built with React Native GUI. Captures vehicle plates via camera, processes images for text recognition, and displays results in real-time. User-friendly interface with instant feedback, ideal for parking, tolls, or security. Supports multiple plate formats.
-
----
-
-# 🚘 Automated Number Plate Recognition (ANPR)
 
 Proyek ini merupakan aplikasi mobile berbasis **React Native + Expo** yang terintegrasi dengan backend **Python Flask** untuk mendeteksi dan membaca teks dari plat nomor kendaraan menggunakan **OpenCV** dan **Tesseract OCR**.
 

@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ocr",
+    "slug": "ocr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+      "NSCameraUsageDescription": "Aplikasi ini butuh akses kamera untuk memindai plat nomor.",
+      "NSPhotoLibraryUsageDescription": "Aplikasi ini butuh akses galeri untuk memilih gambar."
+    }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "usesCleartextTraffic": true,
+        "permissions": ["INTERNET","CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "usesCleartextTraffic": true,
+      "permissions": ["INTERNET"]
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+    
+  }
+}
